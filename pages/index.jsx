@@ -1,4 +1,4 @@
-import BasicLayout from "../layout";
+import BasicLayout from "../layout/BasicLayout";
 import Seo from "../components/Seo";
 import Hero from "../components/Hero";
 import Feactures from "../components/Feactures";
