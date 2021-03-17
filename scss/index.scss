@@ -1,0 +1,20 @@
+// Base
+@import "./base/variables.scss";
+@import "./base/global.scss";
+
+// Layouts
+@import "../layout/BasicLayout.scss";
+
+// Components
+@import "../components/Hero.scss";
+@import "../components/Header.scss";
+@import "../components/Footer.scss";
+@import "../components/Button.scss";
+@import "../components/Feactures.scss";
+@import "../components/Comments.scss";
+@import "../components/Courses.scss";
+@import "../components/Experiences.scss";
+@import "../components/Contact.scss";
+
+// Pages
+@import "./pages/Home.scss";

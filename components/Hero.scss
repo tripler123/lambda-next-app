@@ -1,0 +1,27 @@
+.Hero {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  &__Left {
+    h1 {
+      font-size: 60px;
+      color: $clr-primary-dark;
+    }
+    p {
+      font-size: $fs-body;
+    }
+  }
+  &__Right {
+    img {
+      width: 45vw;
+    }
+  }
+  &__Lambda {
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: -100px;
+    width: 40rem;
+    z-index: -1;
+  }
+}

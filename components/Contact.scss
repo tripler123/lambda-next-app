@@ -1,0 +1,45 @@
+.Contact__Inputs {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 2rem auto;
+  .form-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+    img {
+      height: 1.3rem;
+    }
+    .Contact__Inputs--Input {
+      background-color: #eee;
+      border: none;
+      margin-left: 1.2rem;
+      width: 100%;
+      border-radius: 5px;
+      padding: 10px 5px;
+    }
+    .text-area-image {
+      align-self: flex-start;
+    }
+    .Contact__Inputs--Text-area {
+      resize: both;
+      background-color: #eee;
+      border: none;
+      margin-left: 1.2rem;
+      width: 100%;
+      border-radius: 5px;
+      padding: 10px 5px;
+      font-family: $ff-primary;
+    }
+  }
+  &--Button {
+    padding: 0.5em 2.5em;
+    display: inline-block;
+    background: $clr-primary-medium;
+    border-radius: 5px;
+    box-shadow: $clr-shadow;
+    color: #fff !important;
+    border: none;
+    font-family: $ff-primary;
+  }
+}

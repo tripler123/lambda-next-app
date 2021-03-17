@@ -1,0 +1,28 @@
+.Navbar {
+  background-color: #fff;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+
+  &__Header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--logo {
+      height: 30px;
+    }
+    &--links {
+      a {
+        text-decoration: none;
+        color: $clr-primary-dark;
+        margin-left: 60px;
+        font-weight: $fw-reg;
+      }
+
+      
+    }
+  }
+}
+

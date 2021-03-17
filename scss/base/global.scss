@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generals */
+
+body {
+  background: $clr-light;
+  color: $clr-grey;
+  margin: 0;
+  font-family: $ff-primary;
+  font-size: $fs-body;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+#__next {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.Wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 0.5em;
+}
+
+.Section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__Title {
+    text-align: center;
+    margin-bottom: 5rem;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 40px;
+      height: 10px;
+      left: 42%;
+      border-radius: 4px;
+      width: 12rem;
+      background: $clr-primary-medium;
+    }
+  }
+  &__Subtitle {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -2rem;
+    text-align: center;
+  }
+}
+
+.Dark {
+  background-color: $clr-secondary-dark;
+  color: #fff;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  margin: 0;
+}
+
+h1 {
+  font-weight: $fs-h1;
+}
+h2 {
+  font-weight: $fs-h2;
+}
+h3 {
+  font-weight: $fs-h3;
+}

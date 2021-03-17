@@ -1,0 +1,70 @@
+{
+  "ExperiencesItems": [
+    "Clases prácticas, concretas y enfocadas en las habilidades de mayor demanda laboral.",
+    "Contenido estructurado para cumplir objetivos enfocados en metodologías de educación.",
+    "Aprende desde cero los fundamentos  hasta la aplicación en proyectos reales.",
+    "Tus profesores son profesionales con una larga experiencia y lideres reconocidos en la industria.",
+    "Sesiones semanales exclusivas que te permite conectarte directamente con tus profesores."
+  ],
+  "HomeFeactures": [
+    {
+      "title": "Soporte continuo",
+      "description": "Soporte rápido y amigable para preguntas y respuestas.",
+      "image": "assets/images/soporte-continuo.svg"
+    },
+    {
+      "title": "Profesionales con experiencia",
+      "description": "Todos nuestros profesionales cuentan con años de experiencia acumulados en multiples proyectos en las mejores empresas de la industria.",
+      "image": "assets/images/profesionales-experiencia.svg"
+    },
+    {
+      "title": "Cursos innovadores",
+      "description": "Nuestros cursos están enfocados a realizar un cambio disruptivos en la industria aumentando la productividad.",
+      "image": "assets/images/cursos-innovadores.svg"
+    }
+  ],
+  "HomeCourses": [
+    {
+      "title": "Automatización de procesos con Revit API",
+      "autor": "Renzo Rios Rugel",
+      "price": "S/. 570",
+      "image": "assets/images/course-image-two.png"
+    },
+    {
+      "title": "Automatización de procesos con Revit API",
+      "autor": "Renzo Rios Rugel",
+      "price": "S/. 570",
+      "image": "assets/images/course-image.png"
+    },
+    {
+      "title": "Automatización de procesos con Revit API",
+      "autor": "Renzo Rios Rugel",
+      "price": "S/. 570",
+      "image": "assets/images/course-image.png"
+    },
+    {
+      "title": "Automatización de procesos con Revit API",
+      "autor": "Renzo Rios Rugel",
+      "price": "S/. 570",
+      "image": "assets/images/course-image.png"
+    },
+    {
+      "title": "Automatización de procesos con Revit API",
+      "autor": "Renzo Rios Rugel",
+      "price": "S/. 570",
+      "image": "assets/images/course-image.png"
+    },
+    {
+      "title": "Automatización de procesos con Revit API",
+      "autor": "Renzo Rios Rugel",
+      "price": "S/. 570",
+      "image": "assets/images/course-image.png"
+    },
+    {
+      "title": "Automatización de procesos con Revit API",
+      "autor": "Renzo Rios Rugel",
+      "price": "S/. 570",
+      "image": "assets/images/course-image.png"
+    }
+  ]
+}

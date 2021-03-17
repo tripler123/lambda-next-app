@@ -1,0 +1,14 @@
+.Experiences__Items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5em;
+  row-gap: 2em;
+}
+
+.Experience {
+  display: flex;
+  align-items: flex-start;
+  p {
+    margin-left: 1.5rem;
+  }
+}

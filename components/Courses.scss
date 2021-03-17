@@ -1,0 +1,46 @@
+.Courses {
+  &__Items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  &__Buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    &--More-course {
+      margin-left: 1.5rem;
+      padding: 0em 2.5em;
+      background-color: $clr-primary-light;
+      border: 2px solid $clr-primary-dark;
+      border-radius: 5px;
+      box-shadow: $clr-shadow;
+      font-family: $ff-primary;
+      font-weight: 600;
+    }
+  }
+}
+
+.Course {
+  background-color: $clr-grey-light;
+  margin: 0 2rem 2rem;
+  border-radius: 8px;
+  &__Content {
+    padding: 20px;
+    &--Top {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      align-items: center;
+      .Autor {
+        display: flex;
+        align-items: center;
+        img {
+          width: 40px;
+        }
+        p {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.Button {
+  padding: .3em 2.5em;
+  display: inline-block;
+  background: $clr-primary-medium;
+  text-align: center;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: $clr-shadow;
+  color: #fff !important;
+}
